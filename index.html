@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+	<html>
+	    <head>
+	        <meta charset="UTF-8">
+	        <meta name="viewport" content="width=screen-width, initial-scale=1.0">
+	        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	        <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;700&display=swap" rel="stylesheet">
+	        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+	        
+	        <title>Trial</title>
+	
+
+	    </head>
+	    <body>
+	      <secition class="section-header">
+	        <div class="header-and-words">
+	        <header>A tribute to <span class="name">JIMMY WALES</span> </header>
+	        <div class="red-underline"></div>
+	        <p>Founder of Wikipedia who revolutionise the way people learn.  </p>
+	        </div>
+	        
+	        <nav>
+	            <ul>
+	                <li><a href="#intro"> /  Intro</a></li>
+	                <li><a href="#vision"> / Jimmy Wales'vision for Wikipedia</a></li>
+	                <li><a href="#ongoing"> / Wales'ongoing revolution</a> </li>
+	                
+	
+
+	              </ul>
+	        </nav>
+	      </secition>
+	
+
+	      <section class="photo-and-time" >
+	        <div id="timeblock">
+	        <p id="date-title"> Current Date:  </p>
+	        <p id="date"></p>
+	        </div>  
+	
+
+	<! -- this is the img element to include image -- >
+	        <img id="headshot"; src="https://lucien7648c76044.files.wordpress.com/2023/04/methode-times-prodmigration-web-bin-f673c2f5-b02b-3c63-839a-e1e5f358c23a.jpg"; alt="jimmy-headshot" >
+	        
+	      </section>
+	
+
+	      <section class="context">
+	        <div class="text-block">
+	        <h2 id="intro">Intro</h2>
+	        <p>It’s unimagable life today without wikipedia. 
+	
+
+	            Over past two decades Wikipedia has dramatcially changed the way we share the knowledge and become one of the most influencial webiste. It is deem as a live online encyclopedia that evolve with the time. 
+	            
+	            Nowaday everyone on the planet can contribute and absorb the knowledge to/through wikipedia no matter where we are as long as we have access of internet.
+	            
+	            Jimmy Wales - the co-founder of Wikipedia is the pioneer who made who this incrediable happened.</p>
+	       
+	        <h2 id="vision">Jimmy Wales’s Vision for Wikipedia </h2>
+	        <p>To create a free, open, and collaborative platform for sharing knowledge and information. He believes that by providing free and open access to knowledge, we can create a more informed, empowered, and equitable society.
+	
+
+	            One of Wales’s key goals for Wikipedia is to ensure that it remains an objective and reliable source of information. He has worked to promote a culture of fact-checking, verification, and accountability among contributors, and has been a vocal advocate for using high-quality sources and reliable information.
+	            
+	            Wales also envisions Wikipedia as a tool for global collaboration and understanding. He believes that by bringing together people from diverse backgrounds and perspectives, we can create a more inclusive and tolerant world. To this end, he has worked to promote multilingualism on Wikipedia and to encourage contributors from around the world to participate in the project.
+	            </p>
+	        <h2 id="ongoing">Wales’ ongiong  revolution</h2>
+	        <p>In addition to co-founding Wikipedia, Jimmy Wales has been involved in several other internet-related projects and initiatives. Here are some notable examples:
+	            
+	 <! -- this is list element to create list -- >
+	            
+	            <ul>
+	            <li>Wikia: In 2004, Wales founded Wikia, a for-profit wiki hosting service that allows anyone to create and share content on various topics. The platform has grown to include more than 300,000 communities and has become one of the largest collaborative content creation platforms on the internet.
+	            The People’s Operator: In 2012, Wales co-founded The People’s Operator (TPO), a mobile virtual network operator that aimed to donate a portion of its profits to various charitable causes. While the company struggled financially and eventually shut down in 2019, its mission and social impact have inspired other similar ventures in the telecommunications industry.
+	            </li>
+	            <li>WikiTribune: In 2017, Wales launched WikiTribune, a news website that aimed to provide high-quality, reliable, and transparent journalism by leveraging the collaborative power of the wiki model. While the site is no longer active, it has influenced the conversation around the future of journalism and the role of community-driven initiatives in shaping the media landscape.
+	            </li>
+	            <li>
+	                Campaign for "social network neutrality" - a campaign to ensure that social networking sites do not restrict access to content based on the identity or beliefs of the user. Wales has spoken out against the use of algorithms to filter or prioritize content on social media platforms.
+	            </li>
+	            </p>
+	            
+	
+
+	            </li>
+	        
+	            </ul>
+	        </div>
+	      </section>
+	    <section class="donation">
+	        <div class="donation-block">
+	
+
+	 <! -- this is anchor element to link to outer website -- >
+	       
+	       <h2>if you would like to support Wales's non-profit organisation, 
+	        you can donnate through <a href="https://donate.wikimedia.org.uk">wikipedia</a> site.
+	        </h2> 
+	        </div>
+	
+
+	    </section>
+	
+
+	
+
+	    <! -- this is the date function showing current date -- >
+	
+
+	<script>
+	    const dateBlock = document.getElementById("date"); 
+	    const currentDate = new Date();
+	    dateBlock.innerText = currentDate.toDateString();
+	
+
+	    function adjustPosition() {
+	      if (window.location.hash) {
+	        const target = document.querySelector(window.location.hash);
+	        if (target) {
+	          window.scrollTo(0, target.offsetTop - 180);
+	        }
+	      }
+	    }
+	    
+	    window.addEventListener('load', adjustPosition);
+	    window.addEventListener('hashchange', adjustPosition);
+	
+
+	
+
+	</script>
+	     
+	    
+	</body>
+	<footer> 
+	    <div class="footer">
+	    <div class="footer-content">
+	    <p>'Hobby Page' Project by </p><p> Yuhsiang Lin</p> 
+	    </div>
+	    <div class="footer-content"><p>Founders and Coders application</p></div>
+	    <div class="footer-content"><p>contact email: </p><p>lucienlmp@hotmail.com</p></div>
+	        
+	    </div>
+	    <div></div>
+	</footer>
+	
+
+	
+
+	</html>
